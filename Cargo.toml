@@ -1,0 +1,14 @@
+[package]
+name = "qdd_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num = "0.4"
+rand = "0.9"
+petgraph = "0.7.1"
+plotters = "0.3.7"
+float-cmp = "0.10.0"
+num-rational = "0.4.2"
+num-traits = "0.2.19"
+lazy_static = "1.5.0"

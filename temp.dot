@@ -1,0 +1,269 @@
+digraph DD {
+  graph [rankdir=TB, splines=true, nodesep=0.6];
+  node [shape=none];
+  edge [arrowhead=normal];
+  root [shape=point, style=invis];
+  node_24bd04180f0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>5</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0418090 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>4</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0418030 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>3</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0418390 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd04182d0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0418330 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>0</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0418270 [label="1", shape=rectangle, style="rounded", width=0.3, height=0.3];
+  node_24bd0418330:zero -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418330:one -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd04182d0:zero -> node_24bd0418330 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd04182d0:one -> node_24bd0418330 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418390:zero -> node_24bd04182d0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418390:one -> node_24bd04182d0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418030:zero -> node_24bd0418390 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417e50 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041b0e0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041b080 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>0</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041b080:zero -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041b080:one -> node_24bd0418270 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041b0e0:zero -> node_24bd041b080 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041b0e0:one -> node_24bd041b080 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417e50:zero -> node_24bd041b0e0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417e50:one -> node_24bd041b0e0 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418030:one -> node_24bd0417e50 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418090:zero -> node_24bd0418030 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417f70 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>3</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417eb0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417d90 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417d90:zero -> node_24bd0418330 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417d90:one -> node_24bd0418330 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417eb0:zero -> node_24bd0417d90 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417eb0:one -> node_24bd0417d90 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417f70:zero -> node_24bd0417eb0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041af60 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041ae40 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041a420 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>0</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041a420:zero -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041a420:one -> node_24bd0418270 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041ae40:zero -> node_24bd041a420 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041ae40:one -> node_24bd041a420 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041af60:zero -> node_24bd041ae40 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041af60:one -> node_24bd041ae40 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417f70:one -> node_24bd041af60 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418090:one -> node_24bd0417f70 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd04180f0:zero -> node_24bd0418090 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd04181b0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>4</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417cd0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>3</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0418210 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417f10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417d30 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>0</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417d30:zero -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417d30:one -> node_24bd0418270 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417f10:zero -> node_24bd0417d30 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417f10:one -> node_24bd0417d30 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418210:zero -> node_24bd0417f10 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0418210:one -> node_24bd0417f10 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417cd0:zero -> node_24bd0418210 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041b200 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041aa80 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041aae0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>0</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041aae0:zero -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041aae0:one -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041aa80:zero -> node_24bd041aae0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041aa80:one -> node_24bd041aae0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041b200:zero -> node_24bd041aa80 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041b200:one -> node_24bd041aa80 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417cd0:one -> node_24bd041b200 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd04181b0:zero -> node_24bd0417cd0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417c70 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>3</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417fd0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417df0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd0417df0:zero -> node_24bd0417d30 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417df0:one -> node_24bd0417d30 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417fd0:zero -> node_24bd0417df0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417fd0:one -> node_24bd0417df0 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417c70:zero -> node_24bd0417fd0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041ac60 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>2</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041acc0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>1</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041b140 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2">
+  <TR><TD COLSPAN="2" ALIGN="CENTER">q<sub>0</sub></TD></TR>
+  <TR>
+    <TD PORT="zero" ALIGN="CENTER"><FONT POINT-SIZE="12">0</FONT></TD>
+    <TD PORT="one" ALIGN="CENTER"><FONT POINT-SIZE="12">1</FONT></TD>
+  </TR>
+</TABLE>>];
+  node_24bd041b140:zero -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041b140:one -> node_24bd0418270 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041acc0:zero -> node_24bd041b140 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041acc0:one -> node_24bd041b140 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041ac60:zero -> node_24bd041acc0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd041ac60:one -> node_24bd041acc0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd0417c70:one -> node_24bd041ac60 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd04181b0:one -> node_24bd0417c70 [label=<<font point-size="8">-1/√2</font>>, color="0.500 0.6 0.9", penwidth="1.648528137423857"];
+  node_24bd04180f0:one -> node_24bd04181b0 [label=<<font point-size="8">1/√2</font>>, color="0.000 0.6 0.9", penwidth="1.648528137423857"];
+  root -> node_24bd04180f0;
+}
